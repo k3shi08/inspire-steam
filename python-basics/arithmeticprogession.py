@@ -12,3 +12,4 @@ nth_term = a+(n-1)*d
 print(f"the nth term is:{nth_term}")
 sum_of_numbers = (n/2)*(2*a+(n-1)*d)
 print(f"the sum of the numbers is:{sum_of_numbers}")
+
