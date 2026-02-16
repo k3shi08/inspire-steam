@@ -15,7 +15,7 @@ for x in range(-180,+180,30):
 
 # Table of squares 
 
-for x in range(1,11):
+for x in range(1,100):
     print(x**2)
 
 
