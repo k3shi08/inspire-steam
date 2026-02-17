@@ -3,20 +3,24 @@
 # Program for loops
 
 import math
+# print table header 
+print("Angle | sin | cos | tan")
+print("-------------------------")
+factor = 2
+for angle in range (-180,+180,30):
+    x = angle * factor 
+    # using round so as to reduce the decimals 
+    sine = round(math.sin(x), 2)
+    cosine = round(math.cos(x), 2)
+    tangent = round(math.tan(x), 2) if cosine !=0 else "undefined"
 
-for x in range(-180,+180,30):
-    print(math.cos(x))
+    print(f"{angle:5} | {sine:5} | {cosine:5} | {tangent:5}")
 
-for x in range(-180,+180,30):
-    print(math.tan(x))
 
-for x in range(-180,+180,30):
-    print(math.sin(x))
 
-# Table of squares 
 
-for x in range(1,100):
-    print(x**2)
+
+
 
 
 
