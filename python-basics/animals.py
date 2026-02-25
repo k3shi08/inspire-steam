@@ -21,6 +21,7 @@ class Dog(Animal):
         self.breed = breed
         self.height = height
         self.colour = colour
+
     def grow(self,weight):
         weight = 1.1 * weight
         print(f"The animal weighs {weight} kgs")
